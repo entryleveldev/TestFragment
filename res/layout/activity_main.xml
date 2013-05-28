@@ -25,17 +25,16 @@
                 android:layout_height="wrap_content" >
             </TabWidget>
 
+<!--             <FrameLayout -->
+<!--                 android:id="@android:id/tabcontent" -->
+<!--                 android:layout_width="0dp" -->
+<!--                 android:layout_height="0dp" /> -->
+
             <FrameLayout
-            android:id="@android:id/tabcontent"
-            android:layout_width="0dp"
-            android:layout_height="0dp" />
- 
-        <FrameLayout
-            android:id="@+id/tabcontent"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-        
+                android:id="@+id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
         </LinearLayout>
     </android.support.v4.app.FragmentTabHost>
 
